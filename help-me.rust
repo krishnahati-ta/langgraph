@@ -1,0 +1,21 @@
+// help-me.rust
+// This is a Rust file created as requested
+
+fn main() {
+    println!("Hello from help-me.rust!");
+    println!("This file was created to demonstrate file creation and PR workflow.");
+}
+
+// Add your Rust code here
+// This file can be used for:
+// - Learning Rust programming
+// - Testing Rust concepts
+// - Experimenting with code snippets
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn it_works() {
+        assert_eq!(2 + 2, 4);
+    }
+}
